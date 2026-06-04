@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganze Vocational Training Centre - Skills for Life</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts & Lucide Icons for clean UI -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+
+    <!-- Hero & Header Wrapper -->
+    <div class="relative min-h-[90vh] md:min-h-screen flex flex-col justify-between bg-cover bg-center bg-no-repeat" 
+        style="background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.5)),
+    url('images/hero.jpeg');" 
+
+
+        
+        <!-- Navigation Bar -->
+        <header class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex items-center justify-between relative z-10">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-bold text-white tracking-tight">GANZE <span class="text-emerald-400">VTC</span></span>
+            </div>
+            
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-white/90">
+                <a href="#" class="hover:text-emerald-500 transition-colors">Home</a>
+                <a href="#" class="hover:text-emerald-500 transition-colors">About Us</a>
+                <a href="#" class="hover:text-emerald-500 transition-colors">Admissions</a>
+                <a href="#" class="hover:text-emerald-500 transition-colors">Downloads</a>
+                <a href="#" class="hover:text-emerald-500 transition-colors">Student Portal</a>
+                <a href="#" class="hover:text-emerald-500 transition-colors">Contact Us</a>
+            </nav>
+
+            <!-- CTA Button -->
+            <div class="hidden md:flex items-center">
+                <a href="#" class="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold text-sm px-5 py-2.5 rounded-full transition-all duration-200 shadow-lg shadow-emerald-900/20">
+                    Apply Now!
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button (Kenya) -->
+            <button class="md:hidden text-white focus:outline-none" aria-label="Toggle Menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/></svg>
+            </button>
+        </header>
+
+        <!-- Main Hero Content Area -->
+        <section id="home" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-6">
+            Welcome to Ganze Vocational Training Centre
+        </h2>
+
+        <p class="text-center text-gray-600 max-w-3xl mx-auto">
+            Ganze Vocational Training Centre provides quality technical and vocational
+            training aimed at equipping youth and adults with practical skills for
+            employment and self-reliance.
+        </p>
+    </div>
+</section>
+            <section id="about" class="py-20 bg-slate-100">
+    <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-6">About Us</h2>
+
+        <p class="text-gray-700">
+            Ganze Vocational Training Centre is committed to offering
+            competency-based training in various technical fields including
+            Information Technology, Fashion Design, Plumbing, Electrical Installation,
+            Carpentry and Joinery, Hair Dressing, and Masonry.
+        </p>
+    </div>
+</section>
+        <section id="admissions" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-6">Admissions</h2>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-slate-50 p-6 rounded-xl shadow">
+                <h3 class="font-bold text-xl mb-3">Entry Requirements</h3>
+                <p>Open to all learners interested in vocational skills training.</p>
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+
+    <div>
+        <img src="images/students.jpeg"
+             alt="Students Learning"
+             class="rounded-2xl shadow-lg w-full">
+    </div>
+
+    <div>
+        <h2 class="text-3xl font-bold mb-4">
+            Practical Training
+        </h2>
+
+        <p>
+            Our learners receive hands-on training using modern equipment
+            and industry-relevant tools.
+        </p>
+    </div>
+
+</div>
+            </div>
+
+            <div class="bg-slate-50 p-6 rounded-xl shadow">
+                <h3 class="font-bold text-xl mb-3">Application Process</h3>
+                <p>Fill in the admission form and submit required documents.</p>
+            </div>
+
+            <div class="bg-slate-50 p-6 rounded-xl shadow">
+                <h3 class="font-bold text-xl mb-3">Intake Periods</h3>
+                <p>January, May and September intakes available.</p>
+            </div>
+        </div>
+    </div>
+</section>
+        <section id="courses" class="py-20 bg-slate-100">
+    <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-10">
+            Our Courses
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <div class="bg-white p-6 rounded-xl shadow">
+                <h3 class="font-bold text-xl">Information Technology</h3>
+                <p class="mt-3 text-gray-600">
+                    Computer applications, networking and digital skills.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow">
+                <h3 class="font-bold text-xl">Fashion Design</h3>
+                <p class="mt-3 text-gray-600">
+                    Garment construction and fashion entrepreneurship.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow">
+                <h3 class="font-bold text-xl">Electrical Installation</h3>
+                <p class="mt-3 text-gray-600">
+                    Domestic and industrial electrical systems.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <!-- Search Widget Section (Sits at bottom of Hero on Desktop, flows naturally on Mobile) -->
+        <section class="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 translate-y-0 md:translate-y-1/2 pb-12 md:pb-0 relative z-20">
+            <div class="bg-white/95 md:bg-white/80 backdrop-blur-xl p-6 md:p-8 rounded-3xl shadow-xl border border-white/20">
+                
+                <!-- Search Type Toggles -->
+                <div class="flex space-x-6 mb-6 border-b border-slate-200/60 pb-3 text-sm font-medium text-slate-500">
+                    <button class="text-emerald-600 border-b-2 border-emerald-500 pb-3 flex items-center space-x-2 font-semibold">
+                        <span>Enrol Now</span>
+                    </button>
+                    <button class="hover:text-slate-800 pb-3 transition-colors">Learning Resources</button>
+                    <button class="hover:text-slate-800 pb-3 transition-colors">Exam Booking</button>
+                </div>
+
+                <!-- Input Grid -->
+                <form class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 items-end">
+                    
+                    <!-- Course Search -->
+                    <div class="flex flex-col">
+                        <label class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Course Search?</label>
+                        <div class="relative">
+                            <input type="text" placeholder= "Search Course...">
+
+                            <label>Intake Period</label>
+                            <select>
+                                <option>January Intake</option>
+                                <option>May Intake</option>
+                                <option>September Intake</option>
+                            </select>
+                                  
+                    </div>
+
+                    <!-- Departments-->
+                    <div class="flex flex-col">
+                        <label class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Select Department?</label>
+                        <select class="w-full bg-slate-100/80 focus:bg-white border border-slate-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 rounded-xl px-4 py-3 text-sm font-medium text-slate-700 transition-all outline-none appearance-none">
+                            <option>Fashion Design</option>
+                            <option selected>Plumbing</option>
+                            <option>Hair Dressing</option>
+                            <option>Carpentry & Joinery</option>
+                            <option>Electrical Instalation</option>
+                            <option>Masonry</option>
+                            <option>Information Technology</option>
+                        </select>
+                    </div>
+
+                    <!-- Search Submit Button -->
+                    <div>
+                        <button type="submit" 
+                                class="w-full bg-emerald-500 hover:bg-emerald-600 active:scale-[0.98] text-white font-bold text-sm py-3.5 px-6 rounded-xl transition-all duration-150 shadow-lg shadow-emerald-500/20 flex items-center justify-center space-x-2 cursor-pointer">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                            <span>Explore Options</span>
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Spacer to visually show the responsive desktop overlap layout works cleanly -->
+    <div class="h-24 md:h-40"></div>
+</body>
+</html>
